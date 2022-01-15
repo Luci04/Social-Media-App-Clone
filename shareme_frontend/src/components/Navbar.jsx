@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { IoMdAdd, IoMdSearch } from "react-icons/io";
 
-const Navbar = ({ searchTerm, setSearchTerm, user }) => {
+const Navbar = ({ searchTerm, setsearchTerm, user }) => {
   const navigate = useNavigate();
 
   if (user) {
@@ -12,7 +12,7 @@ const Navbar = ({ searchTerm, setSearchTerm, user }) => {
           <IoMdSearch fontSize={21} className="ml-1" />
           <input
             type="text"
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={(e) => setsearchTerm(e.target.value)}
             placeholder="Search"
             value={searchTerm}
             onFocus={() => navigate("/search")}

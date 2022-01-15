@@ -33,6 +33,7 @@ const PinDetail = ({ user }) => {
   };
 
   useEffect(() => {
+    console.log(user);
     fetchPinDetails();
   }, [pinId]);
 
