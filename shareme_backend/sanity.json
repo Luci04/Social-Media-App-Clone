@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "shareme_jsm"
+    "name": "social_media_clone"
   },
   "api": {
     "projectId": "dclfva5s",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
