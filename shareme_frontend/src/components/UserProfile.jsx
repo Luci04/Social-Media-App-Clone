@@ -35,9 +35,7 @@ const UserProfile = () => {
     client.fetch(query).then((data) => {
       setUser(data[0]);
     });
-  }, [userId]);
 
-  useEffect(() => {
     if (text === "Created") {
       const createdPinsQuery = userCreatedPinsQuery(userId);
 
@@ -55,7 +53,6 @@ const UserProfile = () => {
 
   const logout = () => {
     localStorage.clear();
-
     navigate("/login");
   };
 
