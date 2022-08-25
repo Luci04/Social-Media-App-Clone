@@ -4,7 +4,3 @@ This Appliaction is Built on ReactJs as the FontEnd part and for the BackEnd par
 
 ## Screenshots/Video-Preview
 Video-Preview -> [Click here](https://drive.google.com/file/d/1TMNjjb3DM-TKf-mt1lZ5x5U-BGefmJ59/view?usp=sharing)  
-
-![Screenshot](Screenshot95.png)
-![Screenshot](Screenshot96.png)
-![Screenshot](Screenshot97.png)
